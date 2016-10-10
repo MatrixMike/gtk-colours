@@ -1,0 +1,85 @@
+mikeh@XubuntuDellLat:~/fromCBV$ ls
+gtk_colours  gtk_colours2
+mikeh@XubuntuDellLat:~/fromCBV$ cd ~
+mikeh@XubuntuDellLat:~$ ls
+adafruit          gtk-foobar             NetBeansProjects
+ardTemp           gtk-foobar1            noname-cache.lib
+arduino4wire      gtk-glade1             noname.kicad_pcb
+arduinoMicroview  gtk-gladetest1         noname.sch
+aspergers         gtk-luv                oracle-jmee-8-1-ea-raspberrypi-linux-bin-b01-20_may_2014.zip
+B24               hpPrinters             pbRPi
+bedVideos         hs_err_pid2590.log     photosMike
+blender           ifconfig1.txt          Pictures
+BTooth            java                   pppLog1.txt
+DellLinux         JavaApplication1.html  Public
+Desktop           lazarus                RPi
+Documents         Linux                  sketchbook
+Downloads         lubuntu                Templates
+eca               LUV                    testDir
+firmware          Mary                   thisPC
+fromCBV           MelbPC                 tips
+games             mike                   toPrint
+glade             Music                  tracepath1.txt
+gnome             netbeans               USBstick1
+gtk-colours       netbeans-8.0.1         Videos
+mikeh@XubuntuDellLat:~$ cd gtk-colours/
+mikeh@XubuntuDellLat:~/gtk-colours$ ls -lct
+total 1384
+-rw-rw-r-- 1 mikeh mikeh    227 Nov 18 07:08 debug2.txt
+-rw-rw-r-- 1 mikeh mikeh   4325 Nov 18 07:05 debug1.txt
+drwxr-xr-x 2 mikeh mikeh   4096 Nov 14 22:58 src
+drwxrwxr-x 4 mikeh mikeh   4096 Nov 14 20:53 Debug
+-rwxrwxr-x 1 mikeh mikeh 460238 Nov 14 20:53 configure
+-rwxr-xr-x 1 mikeh mikeh  23566 Nov 14 20:53 depcomp
+-rw-rw-r-- 1 mikeh mikeh  28620 Nov 14 20:53 Makefile.in
+-rw-r--r-- 1 mikeh mikeh  15752 Nov 14 20:53 INSTALL
+-rwxr-xr-x 1 mikeh mikeh   6872 Nov 14 20:53 missing
+-rwxr-xr-x 1 mikeh mikeh  13997 Nov 14 20:53 install-sh
+-rwxr-xr-x 1 mikeh mikeh  35564 Nov 14 20:53 config.sub
+-rwxr-xr-x 1 mikeh mikeh  45297 Nov 14 20:53 config.guess
+-rwxr-xr-x 1 mikeh mikeh   7333 Nov 14 20:53 compile
+drwxr-xr-x 2 mikeh mikeh   4096 Nov 14 20:53 autom4te.cache
+-rw-rw-r-- 1 mikeh mikeh   2190 Nov 14 20:53 config.h.in
+-rw-rw-r-- 1 mikeh mikeh 382653 Nov 14 20:53 aclocal.m4
+-rw-r--r-- 1 mikeh mikeh 283684 Nov 14 20:53 ltmain.sh
+-rw-rw-r-- 1 mikeh mikeh      0 Nov 14 20:53 intltool-update.in
+-rw-rw-r-- 1 mikeh mikeh      0 Nov 14 20:53 intltool-merge.in
+-rw-rw-r-- 1 mikeh mikeh      0 Nov 14 20:53 intltool-extract.in
+drwxr-xr-x 2 mikeh mikeh   4096 Nov 14 20:53 po
+-rw-rw-r-- 1 mikeh mikeh  35148 Nov 14 20:52 COPYING
+-rw-rw-r-- 1 mikeh mikeh    715 Nov 14 20:52 configure.ac
+-rw-rw-r-- 1 mikeh mikeh   1689 Nov 14 20:52 gtk_colours.anjuta
+-rwxrwxr-x 1 mikeh mikeh   4435 Nov 14 20:52 autogen.sh
+-rw-rw-r-- 1 mikeh mikeh    468 Nov 14 20:52 Makefile.am
+-rw-rw-r-- 1 mikeh mikeh      0 Nov 14 20:52 NEWS
+-rw-rw-r-- 1 mikeh mikeh      0 Nov 14 20:52 README
+-rw-rw-r-- 1 mikeh mikeh      0 Nov 14 20:52 AUTHORS
+-rw-rw-r-- 1 mikeh mikeh      2 Nov 14 20:52 ChangeLog
+mikeh@XubuntuDellLat:~/gtk-colours$ cd Debug/src/
+mikeh@XubuntuDellLat:~/gtk-colours/Debug/src$ ls -lct
+total 60
+-rwxrwxr-x 1 mikeh mikeh 18770 Nov 18 07:10 gtk_colours
+-rw-rw-r-- 1 mikeh mikeh 14368 Nov 18 07:10 main.o
+-rw-rw-r-- 1 mikeh mikeh 22799 Nov 14 20:53 Makefile
+mikeh@XubuntuDellLat:~/gtk-colours/Debug/src$ ./gtk_colours 
+
+(process:6247): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+1416255182194	FirefoxAccounts	ERROR	error POSTing /certificate/sign: {"code":401,"errno":110,"error":"Unauthorized","message":"Invalid authentication token in request signature","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+1416255182194	FirefoxAccounts	ERROR	HAWK.signCertificate error: {"code":401,"errno":110,"error":"Unauthorized","message":"Invalid authentication token in request signature","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+1416255182194	Sync.BrowserIDManager	ERROR	Authentication error in _fetchTokenForUser: AuthenticationError([object Object])
+1416255182199	Sync.BrowserIDManager	ERROR	Background fetch for key bundle failed: AuthenticationError([object Object])
+1416255182199	Sync.BrowserIDManager	ERROR	Could not authenticate: AuthenticationError([object Object])
+1416255231348	GMPInstallManager.simpleCheckAndInstall	INFO	Last check was: 233858 seconds ago, minimum seconds: 86400
+1416255231349	GMPInstallManager._getURL	INFO	Using url: https://aus4.mozilla.org/update/3/GMP/%VERSION%/%BUILD_ID%/%BUILD_TARGET%/%LOCALE%/%CHANNEL%/%OS_VERSION%/%DISTRIBUTION%/%DISTRIBUTION_VERSION%/update.xml
+1416255231350	GMPInstallManager._getURL	INFO	Using url (with replacement): https://aus4.mozilla.org/update/3/GMP/33.0/20141013200257/Linux_x86_64-gcc3/en-US/release/Linux%203.13.0-39-generic%20(GTK%202.24.23)/canonical/1.0/update.xml
+1416255231352	GMPInstallManager.checkForAddons	INFO	sending request to: https://aus4.mozilla.org/update/3/GMP/33.0/20141013200257/Linux_x86_64-gcc3/en-US/release/Linux%203.13.0-39-generic%20(GTK%202.24.23)/canonical/1.0/update.xml
+1416255232148	GMPInstallManager.onLoadXML	INFO	request completed downloading document
+1416255232150	GMPInstallManager.onLoadXML	INFO	allowNonBuiltIn: false
+1416255232159	GMPInstallManager.simpleCheckAndInstall	INFO	Found 1 addons advertised.
+1416255232159	GMPInstallManager.simpleCheckAndInstall	INFO	Found addon: gmp-gmpopenh264 (isValid: true, isInstalled: true, isOpenH264: true, hashFunction: sha512, hashValue: 737e49f25aace93d470f1a781c69c3cdd0c9db21afe62221fb171d38a31d8a2b55af01a69cd00e7352e7a34aa450b6b85729509f81582379394785b37997a423, size: 385889)
+1416255232160	GMPInstallManager.simpleCheckAndInstall	INFO	No new addons to install, returning
+1416255771628	addons.repository	WARN	Unknown type id when parsing addon: 5
+1416255771637	addons.repository	WARN	Unknown type id when parsing addon: 5
+1416255772727	addons.update-checker	WARN	Update manifest for ubufox@ubuntu.com did not contain an updates property
+1416255773113	addons.update-checker	WARN	Update manifest for {972ce4c6-7e08-4474-a285-3208198ce6fd} did not contain an updates property
+

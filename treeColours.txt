@@ -1,0 +1,66 @@
+.
+├── aclocal.m4
+├── AUTHORS
+├── autogen.sh
+├── autom4te.cache
+│   ├── output.0
+│   ├── output.1
+│   ├── requests
+│   ├── traces.0
+│   └── traces.1
+├── ChangeLog
+├── compile
+├── config.guess
+├── config.h.in
+├── config.sub
+├── configure
+├── configure.ac
+├── COPYING
+├── Debug
+│   ├── config.h
+│   ├── config.log
+│   ├── config.status
+│   ├── libtool
+│   ├── Makefile
+│   ├── po
+│   │   ├── Makefile
+│   │   ├── Makefile.in
+│   │   ├── POTFILES
+│   │   └── stamp-it
+│   ├── src
+│   │   ├── gtk_colours
+│   │   ├── gtk_colours.txt
+│   │   ├── gtk-colours.txt
+│   │   ├── main.o
+│   │   └── Makefile
+│   └── stamp-h1
+├── debug1.txt
+├── debug2.txt
+├── debug3.txt
+├── depcomp
+├── gtk_colours.anjuta
+├── INSTALL
+├── install-sh
+├── intltool-extract.in
+├── intltool-merge.in
+├── intltool-update.in
+├── ltmain.sh
+├── Makefile.am
+├── Makefile.in
+├── missing
+├── NEWS
+├── po
+│   ├── ChangeLog
+│   ├── LINGUAS
+│   ├── Makefile.in.in
+│   └── POTFILES.in
+├── README
+├── src
+│   ├── gtk_colours.ui
+│   ├── main.c
+│   ├── main.c~
+│   ├── Makefile.am
+│   └── Makefile.in
+└── treeColours.txt
+
+6 directories, 57 files

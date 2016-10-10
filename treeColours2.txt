@@ -1,0 +1,80 @@
+.
+├── aclocal.m4
+├── AUTHORS
+├── autogen.sh
+├── autom4te.cache
+│   ├── output.0
+│   ├── output.1
+│   ├── requests
+│   ├── traces.0
+│   └── traces.1
+├── ChangeLog
+├── compile
+├── config.guess
+├── config.h
+├── config.h.in
+├── config.log
+├── config.status
+├── config.sub
+├── configure
+├── configure.ac
+├── COPYING
+├── Debug
+│   ├── config.h
+│   ├── config.log
+│   ├── config.status
+│   ├── libtool
+│   ├── Makefile
+│   ├── po
+│   │   ├── Makefile
+│   │   ├── Makefile.in
+│   │   ├── POTFILES
+│   │   └── stamp-it
+│   ├── src
+│   │   ├── gtk_colours
+│   │   ├── gtk_colours.txt
+│   │   ├── gtk-colours.txt
+│   │   ├── main.o
+│   │   └── Makefile
+│   └── stamp-h1
+├── debug1.txt
+├── debug2.txt
+├── debug3.txt
+├── depcomp
+├── gtk_colours.anjuta
+├── INSTALL
+├── install-sh
+├── intltool-extract.in
+├── intltool-merge.in
+├── intltool-update.in
+├── libtool
+├── ltmain.sh
+├── Makefile
+├── Makefile.am
+├── Makefile.in
+├── missing
+├── NEWS
+├── po
+│   ├── ChangeLog
+│   ├── LINGUAS
+│   ├── Makefile
+│   ├── Makefile.in
+│   ├── Makefile.in.in
+│   ├── POTFILES
+│   ├── POTFILES.in
+│   └── stamp-it
+├── README
+├── src
+│   ├── gtk_colours
+│   ├── gtk_colours.ui
+│   ├── main.c
+│   ├── main.c~
+│   ├── main.o
+│   ├── Makefile
+│   ├── Makefile.am
+│   └── Makefile.in
+├── stamp-h1
+├── treeColours2.txt
+└── treeColours.txt
+
+6 directories, 71 files

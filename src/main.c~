@@ -71,6 +71,7 @@ main (int argc, char *argv[], char **env_var_ptr)	//
       printf ("\nenv var%3d=> %s", i, *(env_var_ptr++));
     }
 
+
   window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
   gtk_window_set_title (GTK_WINDOW (window), "Hello Mike 7");
   gtk_window_set_default_size (GTK_WINDOW (window), 500, 300);

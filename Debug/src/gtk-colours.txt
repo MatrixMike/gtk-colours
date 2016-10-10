@@ -1,0 +1,59 @@
+
+cmdline args count=1
+exe name=./gtk_colours
+arg 0=./gtk_colours
+env var1=> XDG_VTNR=7
+env var2=> XDG_SESSION_ID=c1
+env var3=> SELINUX_INIT=YES
+env var4=> XDG_GREETER_DATA_DIR=/var/lib/lightdm-data/mikeh
+env var5=> SESSION=xubuntu
+env var6=> GLADE_PIXMAP_PATH=:
+env var7=> GPG_AGENT_INFO=/run/user/1000/keyring-9DWP6a/gpg:0:1
+env var8=> TERM=xterm
+env var9=> SHELL=/bin/bash
+env var10=> XDG_MENU_PREFIX=xfce-
+env var11=> WINDOWID=25166030
+env var12=> UPSTART_SESSION=unix:abstract=/com/ubuntu/upstart-session/1000/1377
+env var13=> GNOME_KEYRING_CONTROL=/run/user/1000/keyring-9DWP6a
+env var14=> USER=mikeh
+env var15=> LS_COLORS=rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arj=01;31:*.taz=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.zip=01;31:*.z=01;31:*.Z=01;31:*.dz=01;31:*.gz=01;31:*.lz=01;31:*.xz=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.jpg=01;35:*.jpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.axv=01;35:*.anx=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.axa=00;36:*.oga=00;36:*.spx=00;36:*.xspf=00;36:
+env var16=> XDG_SESSION_PATH=/org/freedesktop/DisplayManager/Session0
+env var17=> GLADE_MODULE_PATH=:
+env var18=> XDG_SEAT_PATH=/org/freedesktop/DisplayManager/Seat0
+env var19=> SSH_AUTH_SOCK=/run/user/1000/keyring-9DWP6a/ssh
+env var20=> SESSION_MANAGER=local/XubuntuDellLat:@/tmp/.ICE-unix/1482,unix/XubuntuDellLat:/tmp/.ICE-unix/1482
+env var21=> DEFAULTS_PATH=/usr/share/gconf/xubuntu.default.path
+env var22=> XDG_CONFIG_DIRS=/etc/xdg/xdg-xubuntu:/usr/share/upstart/xdg:/etc/xdg:/etc/xdg
+env var23=> PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+env var24=> DESKTOP_SESSION=xubuntu
+env var25=> JOB=dbus
+env var26=> PWD=/home/mikeh/gtk-colours/Debug/src
+env var27=> LANG=en_AU.UTF-8
+env var28=> GDM_LANG=en_AU
+env var29=> MANDATORY_PATH=/usr/share/gconf/xubuntu.mandatory.path
+env var30=> IM_CONFIG_PHASE=1
+env var31=> GDMSESSION=xubuntu
+env var32=> SESSIONTYPE=
+env var33=> SHLVL=1
+env var34=> XDG_SEAT=seat0
+env var35=> HOME=/home/mikeh
+env var36=> LANGUAGE=en_AU:en
+env var37=> UPSTART_INSTANCE=
+env var38=> UPSTART_EVENTS=started xsession
+env var39=> LOGNAME=mikeh
+env var40=> XDG_DATA_DIRS=/usr/share/xubuntu:/usr/share/xfce4:/usr/local/share/:/usr/share/:/usr/share
+env var41=> DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-rFjiT7adhP
+env var42=> LESSOPEN=| /usr/bin/lesspipe %s
+env var43=> INSTANCE=
+env var44=> UPSTART_JOB=startxfce4
+env var45=> TEXTDOMAIN=im-config
+env var46=> XDG_RUNTIME_DIR=/run/user/1000
+env var47=> DISPLAY=:0.0
+env var48=> GLADE_CATALOG_PATH=:
+env var49=> XDG_CURRENT_DESKTOP=XFCE
+env var50=> LESSCLOSE=/usr/bin/lesspipe %s %s
+env var51=> TEXTDOMAINDIR=/usr/share/locale/
+env var52=> COLORTERM=xfce4-terminal
+env var53=> XAUTHORITY=/home/mikeh/.Xauthority
+env var54=> OLDPWD=/home/mikeh/Desktop
+env var55=> _=./gtk_colours

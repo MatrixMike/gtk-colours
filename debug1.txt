@@ -1,0 +1,75 @@
+EXECUTING:
+/home/mikeh/gtk-colours/Debug/src/gtk_colours 
+----------------------------------------------
+
+----------------------------------------------
+Program exited successfully with errcode (0)
+Press the Enter key to close this terminal ... 
+
+EXECUTING:
+/home/mikeh/gtk-colours/Debug/src/gtk_colours 
+----------------------------------------------
+
+----------------------------------------------
+Program exited successfully with errcode (0)
+Press the Enter key to close this terminal ... 
+
+EXECUTING:
+/home/mikeh/gtk-colours/Debug/src/gtk_colours 
+----------------------------------------------
+
+----------------------------------------------
+Program exited successfully with errcode (0)
+Press the Enter key to close this terminal ... 
+
+EXECUTING:
+/home/mikeh/gtk-colours/Debug/src/gtk_colours 
+----------------------------------------------
+
+----------------------------------------------
+Program exited successfully with errcode (0)
+Press the Enter key to close this terminal ... 
+
+EXECUTING:
+/home/mikeh/gtk-colours/Debug/src/gtk_colours 
+----------------------------------------------
+EXECUTING:
+/home/mikeh/gtk-colours/Debug/src/gtk_colours 
+----------------------------------------------
+EXECUTING:
+/home/mikeh/gtk-colours/Debug/src/gtk_colours 
+----------------------------------------------
+
+(process:4586): GLib-CRITICAL **: g_slice_set_config: assertion 'sys_page_size == 0' failed
+1416253969055	FirefoxAccounts	ERROR	error POSTing /certificate/sign: {"code":401,"errno":110,"error":"Unauthorized","message":"Invalid authentication token in request signature","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+1416253969055	FirefoxAccounts	ERROR	HAWK.signCertificate error: {"code":401,"errno":110,"error":"Unauthorized","message":"Invalid authentication token in request signature","info":"https://github.com/mozilla/fxa-auth-server/blob/master/docs/api.md#response-format"}
+1416253969056	Sync.BrowserIDManager	ERROR	Authentication error in _fetchTokenForUser: AuthenticationError([object Object])
+1416253969059	Sync.BrowserIDManager	ERROR	Background fetch for key bundle failed: AuthenticationError([object Object])
+1416253969059	Sync.BrowserIDManager	ERROR	Could not authenticate: AuthenticationError([object Object])
+
+----------------------------------------------
+Program exited successfully with errcode (0)
+Press the Enter key to close this terminal ... 
+1416254018486	GMPInstallManager.simpleCheckAndInstall	INFO	Last check was: 232645 seconds ago, minimum seconds: 86400
+1416254018487	GMPInstallManager._getURL	INFO	Using url: https://aus4.mozilla.org/update/3/GMP/%VERSION%/%BUILD_ID%/%BUILD_TARGET%/%LOCALE%/%CHANNEL%/%OS_VERSION%/%DISTRIBUTION%/%DISTRIBUTION_VERSION%/update.xml
+1416254018488	GMPInstallManager._getURL	INFO	Using url (with replacement): https://aus4.mozilla.org/update/3/GMP/33.0/20141013200257/Linux_x86_64-gcc3/en-US/release/Linux%203.13.0-39-generic%20(GTK%202.24.23)/canonical/1.0/update.xml
+1416254018490	GMPInstallManager.checkForAddons	INFO	sending request to: https://aus4.mozilla.org/update/3/GMP/33.0/20141013200257/Linux_x86_64-gcc3/en-US/release/Linux%203.13.0-39-generic%20(GTK%202.24.23)/canonical/1.0/update.xml
+1416254019655	GMPInstallManager.onLoadXML	INFO	request completed downloading document
+1416254019657	GMPInstallManager.onLoadXML	INFO	allowNonBuiltIn: false
+1416254019666	GMPInstallManager.simpleCheckAndInstall	INFO	Found 1 addons advertised.
+1416254019666	GMPInstallManager.simpleCheckAndInstall	INFO	Found addon: gmp-gmpopenh264 (isValid: true, isInstalled: true, isOpenH264: true, hashFunction: sha512, hashValue: 737e49f25aace93d470f1a781c69c3cdd0c9db21afe62221fb171d38a31d8a2b55af01a69cd00e7352e7a34aa450b6b85729509f81582379394785b37997a423, size: 385889)
+1416254019667	GMPInstallManager.simpleCheckAndInstall	INFO	No new addons to install, returning
+EXECUTING:
+/home/mikeh/gtk-colours/Debug/src/gtk_colours 
+----------------------------------------------
+EXECUTING:
+/home/mikeh/gtk-colours/Debug/src/gtk_colours 
+----------------------------------------------
+EXECUTING:
+/home/mikeh/gtk-colours/Debug/src/gtk_colours 
+----------------------------------------------
+
+----------------------------------------------
+Program exited successfully with errcode (0)
+Press the Enter key to close this terminal ... 
+
