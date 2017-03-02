@@ -116,7 +116,7 @@ main (int argc, char *argv[], char **env_var_ptr)	//
   gtk_about_dialog_set_program_name (GTK_ABOUT_DIALOG (dialog), "Mike's Test Demo");	// added 'program' 7/12/2014
   gtk_about_dialog_set_version (GTK_ABOUT_DIALOG (dialog), "1.3");
   gtk_about_dialog_set_copyright (GTK_ABOUT_DIALOG (dialog),
-				  "2015 Mike Hewitt");
+				  "2017 Mike Hewitt");
   gtk_about_dialog_set_comments (GTK_ABOUT_DIALOG (dialog),
 				 "All about Mike Test Demo Application");
   gtk_about_dialog_set_license (GTK_ABOUT_DIALOG (dialog),
