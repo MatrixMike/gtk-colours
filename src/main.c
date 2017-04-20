@@ -70,7 +70,7 @@ main (int argc, char *argv[], char **env_var_ptr)	//
       i++;
       printf ("\nenv var%3d=> %s", i, *(env_var_ptr++));
     }
-
+	printf("\n");
 
   window = gtk_window_new (GTK_WINDOW_TOPLEVEL);
   gtk_window_set_title (GTK_WINDOW (window), "Hello Mike 7");
