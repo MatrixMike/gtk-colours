@@ -1,0 +1,5 @@
+add an environment variable like
+export MJH1=xyz
+  and examine output
+
+
