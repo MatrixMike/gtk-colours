@@ -1,0 +1,6 @@
+Mon 19 Feb 2018 21:15:50 AEDT 
+
+Need to add support to generate an icon that is displayed on such systems as X-UBUNTU.
+Currently an icon is shown with "?" on a grey background.
+
+
