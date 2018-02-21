@@ -1,6 +1,10 @@
 /* Compile with: 
 *       gcc -Wall -o csswindow `pkg-config --cflags --libs gtk+-3.0` csswindow.c                           
 */
+// https://developer.gnome.org/gio/stable/GIcon.html
+// https://wiki.gnome.org/Attic/GnomeArt/Tutorials/IconThemes
+
+
 #include <gtk/gtk.h>
 // 25 Nov 2014
 // 27 Nov
