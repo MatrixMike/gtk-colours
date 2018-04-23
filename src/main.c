@@ -35,8 +35,8 @@ main (int argc, char *argv[], char **env_var_ptr)	//
   GtkWidget *window;
   GtkWidget *button;
   GtkWidget *dialog;
-//  GdkPixbuf *logo;		//removed as per gcc warning
-//  GError *error = NULL;	//removed as per gcc warning
+  GdkPixbuf *logo;		//removed as per gcc warning
+  GError    *error = NULL;	//removed as per gcc warning
 
   int i;
 /*
@@ -67,7 +67,8 @@ main (int argc, char *argv[], char **env_var_ptr)	//
     NULL
   };
   dialog = gtk_about_dialog_new ();
-
+	logo = gdk_pixbuf_new_from_file ("/home/mikeh/x.png", &error);
+	// see page 127 gtk book
   printf ("\ncmdline args count=%d", argc);	//mike 
 /* First argument is executable name only */
   printf ("\nexe name=%s", argv[0]);
@@ -126,7 +127,7 @@ main (int argc, char *argv[], char **env_var_ptr)	//
 /*----------------------------------------------------------------------------------------------------------*/
   gtk_container_add (GTK_CONTAINER (window), button);	
   //add the button as a child widget of the window
-
+  gtk_about_dialog_set_logo(GTK_ABOUT_DIALOG (dialog), logo);
   gtk_about_dialog_set_program_name (GTK_ABOUT_DIALOG (dialog), "Mike's Test Demo");	// added 'program' 7/12/2014
   gtk_about_dialog_set_version (GTK_ABOUT_DIALOG (dialog), "1.3");
   gtk_about_dialog_set_copyright (GTK_ABOUT_DIALOG (dialog),
