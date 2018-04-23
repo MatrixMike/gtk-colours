@@ -88,6 +88,7 @@ main (int argc, char *argv[], char **env_var_ptr)	//
   gtk_window_set_title (GTK_WINDOW (window), "Hello Mike 7");
   gtk_window_set_default_size (GTK_WINDOW (window), 500, 300);
   gtk_container_set_border_width (GTK_CONTAINER (window), 50);
+  
   button = gtk_button_new_with_mnemonic ("Test button");
   gtk_button_set_relief (GTK_BUTTON (button), GTK_RELIEF_HALF);
 
@@ -123,7 +124,8 @@ main (int argc, char *argv[], char **env_var_ptr)	//
 
   g_object_unref (provider);
 /*----------------------------------------------------------------------------------------------------------*/
-  gtk_container_add (GTK_CONTAINER (window), button);
+  gtk_container_add (GTK_CONTAINER (window), button);	
+  //add the button as a child widget of the window
 
   gtk_about_dialog_set_program_name (GTK_ABOUT_DIALOG (dialog), "Mike's Test Demo");	// added 'program' 7/12/2014
   gtk_about_dialog_set_version (GTK_ABOUT_DIALOG (dialog), "1.3");
@@ -144,8 +146,18 @@ main (int argc, char *argv[], char **env_var_ptr)	//
 
 
   gtk_dialog_run (GTK_DIALOG (dialog));
-
+//  gtk_window_set_modal (GTK_WINDOW (window),TRUE);
   gtk_widget_show_all (window);
+
+  // https://developer.gnome.org/gtk3/stable/GtkWindow.html#gtk-window-set-transient-for
+  gtk_window_set_transient_for(GTK_WINDOW (window),NULL );  // need ref to parent here
+//===
+/*GdkWindow *gtk_window = gtk_widget_get_parent_window(widget);
+GtkWindow *parent = NULL;
+gdk_window_get_user_data(gtk_window, (gpointer *)&parent);
+g_print("%s\n", gtk_window_get_title(parent));
+*/
+//===
   gtk_main ();
   return (0);
 }
