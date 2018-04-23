@@ -35,8 +35,8 @@ main (int argc, char *argv[], char **env_var_ptr)	//
   GtkWidget *window;
   GtkWidget *button;
   GtkWidget *dialog;
-  GdkPixbuf *logo;
-  GError *error = NULL;
+//  GdkPixbuf *logo;		//removed as per gcc warning
+//  GError *error = NULL;	//removed as per gcc warning
 
   int i;
 /*
