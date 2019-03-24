@@ -131,13 +131,33 @@ main (int argc, char *argv[], char **env_var_ptr)	//
 
   g_object_unref (provider);
 /*----------------------------------------------------------------------------------------------------------*/
+//GError *error = NULL;     // see just inside main()
+GtkIconTheme *icon_theme;
+GdkPixbuf *pixbuf;
+
+icon_theme = gtk_icon_theme_get_default ();
+pixbuf = gtk_icon_theme_load_icon (icon_theme,
+                                   "my-icon-name", // icon name
+                                   48, // icon size
+                                   0,  // flags
+                                   &error);
+if (!pixbuf)
+  {
+    g_warning ("Couldn’t load icon: %s", error->message);
+    g_error_free (error);
+  }
+else
+  {
+    // Use the pixbuf
+    g_object_unref (pixbuf);
+  }
   gtk_container_add (GTK_CONTAINER (window), button);	
   //add the button as a child widget of the window
 
   gtk_about_dialog_set_program_name (GTK_ABOUT_DIALOG (dialog), "Mike's Test Demo");	// added 'program' 7/12/2014
   gtk_about_dialog_set_version (GTK_ABOUT_DIALOG (dialog), "1.3");
   gtk_about_dialog_set_copyright (GTK_ABOUT_DIALOG (dialog),
-				  "2018 Mike Hewitt");
+				  "2019 Mike Hewitt");
   gtk_about_dialog_set_comments (GTK_ABOUT_DIALOG (dialog),
 				 "All about Mike Test Demo Application");
   gtk_about_dialog_set_license (GTK_ABOUT_DIALOG (dialog),
