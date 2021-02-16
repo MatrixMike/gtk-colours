@@ -1,4 +1,7 @@
+config.h
+Makefile
 src/gtk_colours
+src/Makefile
 # Object files
 *.o
 *.ko
