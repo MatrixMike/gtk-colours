@@ -67,7 +67,7 @@ main (int argc, char *argv[], char **env_var_ptr)	//
     NULL
   };
   dialog = gtk_about_dialog_new ();
-  logo = gdk_pixbuf_new_from_file ("/home/mikeh/x.png", &error);
+  logo = gdk_pixbuf_new_from_file ("/home/mike/x.png", &error);  // TODO
   if (error == NULL)
     gtk_about_dialog_set_logo(GTK_ABOUT_DIALOG (dialog), logo);
   else

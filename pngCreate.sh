@@ -1,6 +1,6 @@
 #!/bin/sh
 # to generate a png file for logo
-
-convert -size 400x400 xc:red /home/mikeh/x.png
+# TODO  fix hardcoded directory below
+convert -size 400x400 xc:red /home/mike/x.png
 
 
